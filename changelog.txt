@@ -1,0 +1,24 @@
+# 7G Firewall : Log Blocked Requests
+# @ https://perishablepress.com/7g-firewall-log-blocked-requests/
+
+
+# Feedback
+
+Report bugs @ https://perishablepress.com/contact/
+
+
+# Changelog
+
+@ v1.2 20200907
+
+- Renames log and text file (now uppercase "7G")
+- Replaces empty() with defined() in user-agent function
+
+@ v1.1 20190727
+
+- Adds `SEVENGSTATUS` variable to set status code for blocked requests
+
+@ v1.0 20190121
+
+- Initial release
+
