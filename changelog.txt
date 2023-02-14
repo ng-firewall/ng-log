@@ -1,5 +1,5 @@
-# 7G Firewall : Log Blocked Requests
-# @ https://perishablepress.com/7g-firewall-log-blocked-requests/
+# nG Firewall : Log Blocked Requests
+# https://perishablepress.com/ng-firewall-logging/
 
 
 # Feedback
@@ -7,16 +7,26 @@
 Report bugs @ https://perishablepress.com/contact/
 
 
+
 # Changelog
+
+@ v2.0 20230214
+
+- Generalizes script from 7G to nG
+- Adds cookie logging functionality
+- Adds NGFIREWALL_COOKIE variable
+
 
 @ v1.2 20200907
 
 - Renames log and text file (now uppercase "7G")
 - Replaces empty() with defined() in user-agent function
 
+
 @ v1.1 20190727
 
 - Adds `SEVENGSTATUS` variable to set status code for blocked requests
+
 
 @ v1.0 20190121
 
